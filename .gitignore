@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Env files — never commit secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
